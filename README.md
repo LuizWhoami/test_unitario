@@ -41,7 +41,7 @@ calcular_desconto(100, 20)  # Resultado: 80.0
 ## 🧠 Implementação
 
 ### Arquivo: `desconto.py`
-<img src=""/>
+<img src="print01.png"/>
 ```python
 def calcular_desconto(preco, percentual):
     return preco * (1 - percentual / 100)
@@ -50,7 +50,7 @@ def calcular_desconto(preco, percentual):
 ---
 
 ### Arquivo: `test_desconto.py`
-<img src=""/>
+<img src="print02.png"/>
 ```python
 from desconto import calcular_desconto
 
@@ -87,11 +87,7 @@ pytest
 ## 📷 Resultado esperado
 
 Ao executar o comando, o terminal deve exibir algo semelhante a:
-
-```
-...                                              [100%]
-3 passed in 0.01s
-```
+<img src="res.png"/>
 
 ---
 
